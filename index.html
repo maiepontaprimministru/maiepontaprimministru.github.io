@@ -23,6 +23,8 @@
     
     .right{
       text-align:right;
+      font-family: 'Roboto Condensed', serif;
+      color: #FFF;
     }
 
     @media (max-width: 500px) {
@@ -33,11 +35,19 @@
       h1 {
         font-size: 5em;
       }
+
+      .right{
+        display: none;
+      }
     }
 
-    @media (min-width: 600) and (max-width: 700px){
+    @media (min-width: 500px) and (max-width: 700px){
       h1 {
         font-size: 10em;
+      }
+
+      .right{
+        display: none;
       }
     }
 
